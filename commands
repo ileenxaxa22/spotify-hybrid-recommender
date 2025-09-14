@@ -1,0 +1,14 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\env\Scripts\Activate.ps1
+streamlit run main.py
+
+
+
+✅ Here’s how to fix / stop it properly:
+
+If you’re inside the Python shell (>>>) →
+Type exit() or press Ctrl+Z then Enter (Windows).
+
+If Streamlit is still running in the terminal (the one showing "Local URL: http://127.0.0.1:8501
+") →
+Stop it by pressing Ctrl+C once.
